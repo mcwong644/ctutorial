@@ -17,6 +17,16 @@ void Print();
 
 int main()
 {
+    //add by wmc to test declare newNode and pointer instead of using malloc()
+    // and pointer *nptr assign to newNode
+    struct Node newNode;
+    newNode.data=66;
+    newNode.next=NULL;
+    struct Node* nptr = &newNode;
+    // nptr=&newNode;
+    printf("nptr.data : %d\n", nptr->data);
+    //end add by wmc
+
     head = NULL;
     printf("How many numbers: \n");
     int n,i,x;
@@ -35,6 +45,7 @@ void Insert(struct Node** head, int x)
     // c++ can use New and not use malloc() ie 
     // struct Node* temp = New Node;
     struct Node* temp = (struct Node*)malloc(sizeof(struct Node));
+    
     temp->data = x;
     temp->next = NULL;
     if(*head !=NULL) temp->next=*head;
