@@ -1,6 +1,6 @@
 // https://youtu.be/qqtmtuedaBM?si=PiTTYzwQRPtULcKS
 // Structs (Structures) in C - An Introductory Tutorial on typedefs, struct pointers, & arrow operator
-// Kris Jordan. stop 00:01:31
+// Kris Jordan. stop 00:05:08
 #include <stdio.h>
 #include <stdlib.h>
 
