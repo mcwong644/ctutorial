@@ -1,0 +1,1 @@
+this s some dsndm content in the file. lets read it using a diff function called fgets
