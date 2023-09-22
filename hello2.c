@@ -8,7 +8,7 @@
 
 int main(){
 
-    printf("hello world 2\n");
+    printf("hello world 2B\n");
     int a = 1025;
     unsigned *p;
     p = &a;
