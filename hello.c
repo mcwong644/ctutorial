@@ -7,6 +7,6 @@ int main()
 {
  
     // "printf()" belongs to stdio.h
-    printf("hello world\n");
+    printf("hello world\n\n");
     return 0;
 }
