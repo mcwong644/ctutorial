@@ -7,6 +7,6 @@ int main()
 {
  
     // "printf()" belongs to stdio.h
-    printf("hello world from Ubuntu\n");
+    printf("hello world from Ubuntu + Lenovo\n");
     return 0;
 }
