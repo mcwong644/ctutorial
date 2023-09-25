@@ -67,5 +67,5 @@ void Print(struct Node* head)
         printf(" %d", temp->data);
         temp= temp->next;
     }
-    printf("\n");
+    printf("\n\n");
 }
